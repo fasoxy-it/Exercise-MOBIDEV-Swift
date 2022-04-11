@@ -1,11 +1,13 @@
-func Pippo(string: String?) -> String {
+func Pippo(string: String?) -> (lengthString: Int, uppercaseString: String) {
     
     if let stringNotNull = string {
-        return stringNotNull.uppercased()
+        return (stringNotNull.count, stringNotNull.uppercased())
     } else {
-        return "Non so"
+        return (-1, "Non so")
     }
     
 }
 
-Pippo(string: "ciao")
+Pippo(string: "hello world")
+
+Pippo(string: nil)

@@ -8,6 +8,8 @@ func Pippo(string: String?) -> (lengthString: Int, uppercaseString: String) {
     
 }
 
-Pippo(string: "hello world")
+print(Pippo(string: "hello world").lengthString)
+print(Pippo(string: "hello world").uppercaseString)
 
-Pippo(string: nil)
+print(Pippo(string: nil).lengthString)
+print(Pippo(string: nil).uppercaseString)

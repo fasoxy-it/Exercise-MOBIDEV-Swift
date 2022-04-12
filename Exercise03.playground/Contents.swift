@@ -17,4 +17,4 @@ func countStrings(arrayStrings: [String]) -> String {
     
 }
 
-print(countStrings(arrayStrings: ["nutellina", "puzzettina", "puzzettina"]))
+print(countStrings(arrayStrings: ["a", "b", "c", "a", "b", "b"]))

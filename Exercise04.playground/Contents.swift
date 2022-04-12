@@ -30,4 +30,4 @@ func similar2(stringOne: String, stringTwo: String) -> Bool {
 
 print(equal(stringOne: "puzzeTta", stringTwo: "puzzetta"))
 print(equalIgnoreCase(stringOne: "puzzeTta", stringTwo: "puzzetta"))
-print(similar2(stringOne: "puzzetta", stringTwo: "puzzetta"))
+print(similar2(stringOne: "puzzeTta", stringTwo: "puzzetta"))

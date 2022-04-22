@@ -39,6 +39,10 @@ superhero.power = "suona"
 var world = [pearson1, pearson2, superhero]
 
 for index in world {
-    print(index)
+    if let superheroElement = index as? SuperHero {
+        print(superheroElement.superPower)
+    } else {
+        print(index.fullName)
+    }
 }
 
